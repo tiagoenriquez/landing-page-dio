@@ -1,0 +1,118 @@
+:root {
+    --azul-claro: #33A8DB;
+    --cinza-escuro: #252525;
+    --fonte: sans-serif;
+}
+
+* {
+    font-family: var(--fonte);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border: 1px solid var(--azul-claro);
+    color: var(--azul-claro);
+    margin: 31px;
+    padding: 19px 91px;
+}
+
+h1, h2 {
+    color: var(--azul-claro);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(51, 168, 219, 0), rgba(51, 168, 219, 0.2), rgba(51, 168, 219, 0.2));
+    border: 1px solid var(--azul-claro);
+    height: 170px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+span {
+    color: var(--azul-claro);
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(49, 168, 221, 0.1), rgba(0, 0, 0, 0.6)), url("../images/banner.png");
+    border-bottom: 1px solid var(--azul-claro);
+    height: 605px;
+}
+
+.banner-content p {
+    width: 510px;
+}
+
+.module {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cinza-escuro);
+    color: white;
+    cursor: pointer;
+    border: 1px solid var(--azul-claro);
+    border-radius: 57px;
+    margin: 10px;
+    padding: 16px 127px;
+    text-align: center;
+    height: 51px;
+    width: 535px;
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 792px;
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 792px;
+}
+
+#transform-world {
+    background-image: url("../images/woman-code.png");
+    background-size: cover;
+    background-position: -10%;
+    border: 1px solid var(--azul-claro);
+    height: 363px;
+    width: 100vw;
+}
+
+#transform-world p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 198px;
+    margin-top: 111px;
+    text-transform: lowercase;
+    width: 244px;
+}
